@@ -12,6 +12,7 @@ public class Day_2 {
     /**
      * This is the main method — the entry point of any Java application.
      * The JVM looks for this method to start the program.
+     *
      * - public: accessible from anywhere
      * - static: doesn't require an object to run
      * - void: does not return any value
@@ -19,19 +20,48 @@ public class Day_2 {
      */
     public static void main(String[] args) {
 
-        // The main function is mandatory in Java applications.
+        // The main method is mandatory in Java applications.
         // Without it, the program will not compile or run.
 
-        // System.out.println() is used to print output to the console.
-        System.out.println("this is day 2 of java programming revision");
+        // Output in Java:
+        // System.out.println() prints text followed by a newline.
+        // System.out.print() prints text without moving to a new line.
 
-        // Printing today's topic header
-        System.out.println("today's topic is : ");
+        System.out.println("This is Day 2 of Java programming revision.");
 
-        // Printing the first topic
+        // Printing a header for today's topic
+        System.out.println("Today's topics are:");
+
+        // Listing the topics covered
         System.out.println("1. Java Syntax");
+        System.out.println("2. Java Output / Print statements");
+        System.out.println("3. Java Comments");
 
-        // A reminder to read and understand the comments in the code
-        System.out.println("read comments in the code");
+        // -------------------------------------
+        // Demonstration of Single-Line Comments
+        // -------------------------------------
+
+        // This is a single-line comment.
+        // Everything after the // is ignored by the compiler.
+
+        // System.out.println("This line is commented out and won't be executed.");
+
+        // -------------------------------------
+        // Demonstration of Multi-Line Comments
+        // -------------------------------------
+
+        /*
+         This is a multi-line comment.
+         It spans across multiple lines.
+         Useful for describing logic or disabling a block of code.
+        */
+
+        /*
+        System.out.println("This is inside a multi-line comment.");
+        System.out.println("It will not be executed.");
+        */
+
+        // Final reminder
+        System.out.println("Make sure to read and understand comments in the code!");
     }
 }
